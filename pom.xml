@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.biaodaa</groupId>
+    <artifactId>biaodaa-api</artifactId>
+    <version>1.0.0.0</version>
+    <packaging>jar</packaging> <!-- 定义生成格式,若要运行web，需改为war -->
+
+    <properties>
+        <mybatis.version>3.2.8</mybatis.version>
+        <mybatis-spring.version>1.1.0</mybatis-spring.version>
+        <jta.version>1.1</jta.version>
+    </properties>
+
+    <!-- 私有仓库 -->
+    <repositories>
+        <repository>
+            <id>public</id>  <!--这个ID需要与你新建的组group ID一致-->
+            <name>Public Repository</name>
+            <url>http://120.78.253.169:8081/nexus/content/groups/public/</url>
+        </repository>
+        <repository>
+            <id>aliyun</id>
+            <name>aliyun Repository</name>
+            <url>http://maven.aliyun.com/nexus/content/groups/public</url>
+        </repository>
+    </repositories>
+
+    <!-- 自动打包 -->
+    <distributionManagement>
+        <repository>
+            <id>releases</id><!--这个ID需要与你的release仓库的Repository ID一致-->
+            <url>http://120.78.253.169:8081/nexus/content/repositories/releases</url>
+        </repository>
+
+        <snapshotRepository>
+            <id>snapshots</id><!--这个ID需要与你的snapshots仓库的Repository ID一致-->
+            <url>http://120.78.253.169:8081/nexus/content/repositories/snapshots</url>
+        </snapshotRepository>
+    </distributionManagement>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>javax.persistence</groupId>
+            <artifactId>persistence-api</artifactId>
+            <version>1.0</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <!--mybatis分页插件-->
+        <dependency>
+            <groupId>com.github.pagehelper</groupId>
+            <artifactId>pagehelper</artifactId>
+            <version>4.0.0</version>
+            <scope>compile</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.16.12</version>
+            <scope>provided</scope>
+        </dependency>
+
+    </dependencies>
+
+
+</project>
