@@ -68,4 +68,6 @@ public class UserTempBdd {
 
     private String name;
 
+    private String password;
+
 }
