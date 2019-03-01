@@ -48,5 +48,7 @@ public class SysUser  implements Serializable {
     private String verifyCode;//手机验证码
     private Long loginTime;//登录时间
     private String userphone; //旧版手机号
+    private String nickname;
+    private String imgurl;
 
 }
