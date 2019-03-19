@@ -18,7 +18,7 @@ public class TbProjectShuili {
     /**
      * 企业id
      */
-    private String comId;
+    private String comName;
 
     /**
      * 项目名称
