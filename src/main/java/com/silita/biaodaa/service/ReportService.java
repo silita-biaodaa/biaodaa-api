@@ -23,4 +23,10 @@ public interface ReportService {
      * 修改订单状态
      */
     void updateReportOrderPayStatus(String orderNo,String resultCode);
+
+    /**
+     * 设置资质名称
+     * @param param
+     */
+    void setQualName(Map<String, Object> param);
 }

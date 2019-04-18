@@ -61,6 +61,11 @@ public class TbCompany  implements Serializable{
     private String skillLeader;
 
     /**
+     * 资质
+     */
+    private String range;
+
+    /**
      * 创建时间
      */
     private Date created;
