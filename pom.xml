@@ -6,7 +6,7 @@
 
     <groupId>com.biaodaa</groupId>
     <artifactId>biaodaa-api</artifactId>
-    <version>1.0.0.0</version>
+    <version>1.0.0.1</version>
     <packaging>jar</packaging> <!-- 定义生成格式,若要运行web，需改为war -->
 
     <properties>
