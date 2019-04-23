@@ -29,4 +29,11 @@ public interface ReportService {
      * @param param
      */
     void setQualName(Map<String, Object> param);
+
+    /**
+     * 根据订单查询信息
+     * @param orderNo
+     * @return
+     */
+    Map<String,Object> getReportMap(String orderNo);
 }
