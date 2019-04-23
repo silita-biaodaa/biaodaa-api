@@ -22,7 +22,7 @@ public interface ReportService {
     /**
      * 修改订单状态
      */
-    void updateReportOrderPayStatus(String orderNo,String resultCode);
+    void updateReportOrderPayStatus(String orderNo, String resultCode,String transactionId);
 
     /**
      * 设置资质名称
@@ -32,8 +32,7 @@ public interface ReportService {
 
     /**
      * 根据订单查询信息
-     * @param orderNo
      * @return
      */
-    Map<String,Object> getReportMap(String orderNo);
+    Map<String,Object> getReportMap(Map<String,Object> param);
 }

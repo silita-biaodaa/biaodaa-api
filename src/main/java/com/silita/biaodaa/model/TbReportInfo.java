@@ -72,4 +72,9 @@ public class TbReportInfo {
      * 报告查询条件
      */
     private String repCondition;
+
+    /**
+     * 微信订单号
+     */
+    private String transactionId;
 }
