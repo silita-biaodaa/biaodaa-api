@@ -25,6 +25,13 @@ public interface ReportService {
     void updateReportOrderPayStatus(String orderNo, String resultCode,String transactionId);
 
     /**
+     * 修改邮箱
+     * @param email
+     * @param pkid
+     */
+    void updateReportEmail(String email,Integer pkid);
+
+    /**
      * 设置资质名称
      * @param param
      */
