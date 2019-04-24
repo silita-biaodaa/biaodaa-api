@@ -26,10 +26,9 @@ public interface ReportService {
 
     /**
      * 修改邮箱
-     * @param email
-     * @param pkid
+     * @param param
      */
-    void updateReportEmail(String email,Integer pkid);
+    boolean updateReportEmail(Map<String, Object> param);
 
     /**
      * 设置资质名称
