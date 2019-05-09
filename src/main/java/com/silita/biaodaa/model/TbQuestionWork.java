@@ -34,6 +34,11 @@ public class TbQuestionWork {
     private Integer workType;
 
     /**
+     * 题目类型（2：土建；3机械）
+     */
+    private Integer questionType;
+
+    /**
      * 操作时间
      */
     private Date updated;
