@@ -106,6 +106,11 @@ public class TbProjectShuili {
     private List<Map<String,Object>> leaderPersons;
 
     /**
+     * 主要人员
+     */
+    private List<Map<String,Object>> mainPersons;
+
+    /**
      * 工程获奖
      */
     private List<Map<String,Object>> proPrizes;
