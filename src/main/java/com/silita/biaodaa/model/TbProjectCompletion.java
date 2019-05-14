@@ -87,6 +87,7 @@ public class TbProjectCompletion {
     //TODO:非表字段
     private List companys;
 
+    private List persons;
     /**
      * 结构体系
      */

@@ -25,6 +25,11 @@ public class TbProjectTraffic {
     private String proName;
 
     /**
+     * 项目类别
+     */
+    private String proType;
+
+    /**
      * 标段名
      */
     private String section;
