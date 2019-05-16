@@ -64,6 +64,11 @@ public class TbUnderConstruct {
     private String unitOrg;
 
     /**
+     * 性别
+     */
+    private String sex;
+
+    /**
      * 创建时间
      */
     private Date created;
