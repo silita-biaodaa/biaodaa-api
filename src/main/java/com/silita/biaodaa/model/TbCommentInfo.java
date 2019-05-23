@@ -4,6 +4,7 @@ import lombok.Getter;
 import lombok.Setter;
 
 import java.util.Date;
+import java.util.Map;
 
 @Setter
 @Getter
@@ -67,4 +68,13 @@ public class TbCommentInfo {
      * 评论内容
      */
     private String commContent;
+
+    public TbCommentInfo(Map<String,Object> param){
+        this.userId = param.get("userId").toString();
+        this.relatedId = param.get("relatedId").toString();
+        this.relatedType = param.get("relatedType").toString();
+        this.commContent = param.get("commContent").toString();
+        this.isPub = 1;
+        this.state = 1;
+    }
 }

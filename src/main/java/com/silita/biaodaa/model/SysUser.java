@@ -5,9 +5,10 @@ import lombok.Setter;
 
 import java.io.Serializable;
 import java.security.Timestamp;
+
 @Getter
 @Setter
-public class SysUser  implements Serializable {
+public class SysUser implements Serializable {
     private String pkid;
     private String loginName;
     private String loginPwd;
@@ -51,4 +52,11 @@ public class SysUser  implements Serializable {
     private String nickname;
     private String imgurl;
 
+    public SysUser() {
+
+    }
+
+    public SysUser(String userId) {
+        this.pkid = userId;
+    }
 }
