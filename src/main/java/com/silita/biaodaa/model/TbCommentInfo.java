@@ -60,6 +60,11 @@ public class TbCommentInfo {
     private Integer state;
 
     /**
+     * 公告来源
+     */
+    private String source;
+
+    /**
      * 发布时间
      */
     private Date updated;
@@ -74,6 +79,7 @@ public class TbCommentInfo {
         this.relatedId = param.get("relatedId").toString();
         this.relatedType = param.get("relatedType").toString();
         this.commContent = param.get("commContent").toString();
+        this.source = param.get("source").toString();
         this.isPub = 1;
         this.state = 1;
     }

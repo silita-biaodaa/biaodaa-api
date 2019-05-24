@@ -30,6 +30,11 @@ public class TbReplyComment {
     private String relatedType;
 
     /**
+     * 公告来源
+     */
+    private String source;
+
+    /**
      * 被回复者用户id
      */
     private String toUid;
@@ -91,6 +96,7 @@ public class TbReplyComment {
         this.toUid = param.get("toUid").toString();
         this.replyContent = param.get("replyContent").toString();
         this.replyUid = param.get("userId").toString();
+        this.source = param.get("source").toString();
         this.isPub = 1;
         this.state = 1;
     }
