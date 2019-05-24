@@ -101,4 +101,7 @@ public class TbReplyComment {
         this.state = 1;
     }
 
+    public TbReplyComment() {
+
+    }
 }
