@@ -29,6 +29,11 @@ public class TbMessage {
     private String msgTitle;
 
     /**
+     * 消息标题
+     */
+    private String msgContent;
+
+    /**
      * 消息类型(reply:回复评论消息)
      */
     private String msgType;
