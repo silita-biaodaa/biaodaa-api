@@ -51,6 +51,7 @@ public class SysUser implements Serializable {
     private String userphone; //旧版手机号
     private String nickname;
     private String imgurl;
+    private Integer isFirst; //是否首充
 
     public SysUser() {
 
