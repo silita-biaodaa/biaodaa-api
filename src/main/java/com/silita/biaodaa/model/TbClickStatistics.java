@@ -21,7 +21,7 @@ public class TbClickStatistics {
     /**
      * 公告内部id
      */
-    private Integer innertId;
+    private String innertId;
 
     /**
      * 点击此处
