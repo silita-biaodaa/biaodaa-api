@@ -52,4 +52,9 @@ public class TbGsCompany {
      * 行政处罚
      */
     private String punish;
+
+    /**
+     * 分支机构
+     */
+    private String branch;
 }

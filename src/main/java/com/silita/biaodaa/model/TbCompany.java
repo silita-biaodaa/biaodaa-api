@@ -90,7 +90,7 @@ public class TbCompany  implements Serializable{
 
     private String comRange;//工商数据
 
-    private boolean collected=false;//关注状态（默认值显示没关注）
+    private Boolean collected=false;//关注状态（默认值显示没关注）
 
     private String url;
 
