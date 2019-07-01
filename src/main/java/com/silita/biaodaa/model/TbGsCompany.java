@@ -46,7 +46,7 @@ public class TbGsCompany {
     /**
      * 变更记录
      */
-    private String changRecord;
+    private String changeRecord;
 
     /**
      * 行政处罚
