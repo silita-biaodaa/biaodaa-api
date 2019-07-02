@@ -16,7 +16,7 @@ public class TbMessage {
     /**
      * 回复表主键id
      */
-    private Integer replyId;
+    private String replyId;
 
     /**
      * 接收人user_id
