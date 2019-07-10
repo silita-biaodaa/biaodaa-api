@@ -105,4 +105,6 @@ public class TbCompany  implements Serializable{
     private String creditCode;
 
     private String city;
+
+    private String comType;
 }

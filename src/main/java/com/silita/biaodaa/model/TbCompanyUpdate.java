@@ -11,7 +11,7 @@ public class TbCompanyUpdate {
     /**
      * 主键id
      */
-    private Integer pkid;
+    private String pkid;
 
     /**
      * 企业id
