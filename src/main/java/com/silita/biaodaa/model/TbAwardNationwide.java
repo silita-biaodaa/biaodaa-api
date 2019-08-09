@@ -29,6 +29,11 @@ public class TbAwardNationwide {
     private String projName;
 
     /**
+     * 项目类型
+     */
+    private String projType;
+
+    /**
      * 项目经理
      */
     private String projManager;
