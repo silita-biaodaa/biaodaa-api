@@ -19,4 +19,10 @@ public interface ActivityService {
      * @param param
      */
     void updatePayState(Map<String,Object> param);
+
+    /**
+     * 近期是否有活动
+     * @return
+     */
+    boolean isActivity();
 }
