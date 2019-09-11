@@ -28,7 +28,7 @@ public class SysUser implements Serializable {
     private String wxUnionId;
     private String wxOpenId;
     private String qqOpenId;
-    private boolean enable;
+    private Boolean enable;
     private Timestamp created;
     private String createBy;
     private Timestamp updated;
@@ -52,6 +52,7 @@ public class SysUser implements Serializable {
     private String nickname;
     private String imgurl;
     private Integer isFirst; //是否首充
+    private Boolean isCollected = false; //是否关注
 
     public SysUser() {
 

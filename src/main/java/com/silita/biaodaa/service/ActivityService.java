@@ -24,5 +24,5 @@ public interface ActivityService {
      * 近期是否有活动
      * @return
      */
-    boolean isActivity();
+    boolean isActivity(Map<String, Object> param);
 }
