@@ -24,4 +24,11 @@ public interface VipService {
     String addUserProfit(String channel,String userId, String sCode,String... others);
 
     Integer queryUserProfitCount(String sCode,String userId);
+
+    /**
+     * 开通会员后发送系统消息
+     * @param userId
+     * @param stdCode
+     */
+    void sendUserVipMessage(String userId,String stdCode);
 }
