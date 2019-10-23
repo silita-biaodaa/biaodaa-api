@@ -54,6 +54,8 @@ public class SysUser implements Serializable {
     private Integer isFirst; //是否首充
     private Boolean isCollected = false; //是否关注
 
+    private Boolean isVip;//是否会员
+
     public SysUser() {
 
     }
