@@ -34,6 +34,11 @@ public class TbHighwayCredit {
     private Integer years;
 
     /**
+     * 评价类型
+     */
+    private String creditType;
+
+    /**
      * 颁发身份
      */
     private String issueProvince;
