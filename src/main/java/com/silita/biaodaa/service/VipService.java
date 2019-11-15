@@ -6,12 +6,15 @@ import com.silita.biaodaa.model.TbVipFeeStandard;
 import com.silita.biaodaa.to.OpenMemberTO;
 
 import java.util.List;
+import java.util.Map;
 
 /**
  * Created by dh on 2019/1/28.
  */
 public interface VipService {
     List<TbVipFeeStandard> queryFeeStandard(String channel);
+
+    List<TbVipFeeStandard> getFeeStandards(String channel);
 
     PageInfo queryProfitInfo(Page page, String userId);
 

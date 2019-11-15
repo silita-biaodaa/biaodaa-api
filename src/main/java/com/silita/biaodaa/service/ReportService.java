@@ -41,4 +41,5 @@ public interface ReportService {
      * @return
      */
     Map<String,Object> getReportMap(Map<String,Object> param);
+
 }
