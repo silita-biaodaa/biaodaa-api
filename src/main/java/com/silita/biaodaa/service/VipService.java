@@ -14,7 +14,7 @@ import java.util.Map;
 public interface VipService {
     List<TbVipFeeStandard> queryFeeStandard(String channel);
 
-    List<TbVipFeeStandard> getFeeStandards(String channel);
+    Map<String,Object> getFeeStandards();
 
     PageInfo queryProfitInfo(Page page, String userId);
 
