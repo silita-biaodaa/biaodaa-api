@@ -42,4 +42,10 @@ public interface ReportService {
      */
     Map<String,Object> getReportMap(Map<String,Object> param);
 
+    /**
+     ** 修改报告reportPath
+     **@param param
+     */
+    void updateReportPath(Map<String,Object> param);
+
 }
