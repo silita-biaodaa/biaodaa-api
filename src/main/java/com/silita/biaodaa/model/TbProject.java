@@ -122,4 +122,8 @@ public class TbProject {
     private String province;
     /**竣工时间**/
     private String completeDate;
+    /**
+     * 链接
+     */
+    private String url;
 }

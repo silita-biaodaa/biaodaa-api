@@ -34,4 +34,6 @@ public interface VipService {
      * @param stdCode
      */
     void sendUserVipMessage(String userId,String stdCode);
+
+    String getExpiredDate(String userId);
 }
