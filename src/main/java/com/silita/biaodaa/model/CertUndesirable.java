@@ -87,5 +87,9 @@ public class CertUndesirable {
      */
     private Date createdate;
 
+    private String comId;
+
+    private String review;
+
     private BigDecimal score;
 }
